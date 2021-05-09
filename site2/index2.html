@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Radhe Radhe</title>
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylestry.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles2.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index2.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo image"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index2.html">
+							<h1>Radhe Radhe</h1>
+							<p>
+								<img src="images/starlogo.png" alt="Certified Veg">
+								<span>Certified Veg</span>
+							</p>
+						</a>
+					</div>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				
+				<div id="collapsable-nav" class="collapsable navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li class="visible-xs" id="target">
+							<a href="index2.html">
+								<span class="glyphicon glyphicon-home"></span>Home
+							</a>
+						<li>
+							<a href="menu-categories.html">
+								<span class="glyphicon glyphicon-th-large"></span>
+								<br class="hidden-xs">Menu
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span>
+								<br class="hidden-xs">About</a> <!--for break to be hidden when xtra small screen size-->
+						</li>
+						<li>		
+							<a href="#">
+								<span class="glyphicon glyphicon-certificate"></span>
+								<br class="hidden-xs">Awards</a>	
+							</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:06272-377-269">  <!--tel: signals the phone to make a call-->
+								<span>06272-377-269</span>
+							</a><div class="simple-text">*Free Delivery</div>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel:06272-377-269">
+			<span class="glyphicon glyphicon-earphone"></span>
+			06272-377-269
+		</a>
+	</div>
+	<div id="xs-deliver" class="text-center visible-xs">*Free Delivery</div>
+	<div id="main-content" class="container">
+		<div class="jumbotron">
+			<img src="images/768.jpg" alt="pic of restaurant" class="img-responsive visible-xs">
+		</div>
+
+		<div id="home-tiles" class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="menu-categories.html">
+					<div id="menu-tile"><span>Menu</span></div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="single-categories.html">
+					<div id="specials-tile"><span>Specials</span></div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<a href="https://goo.gl/maps/nnz1WBg1qzTpHfts7" target="_blank">
+					<div id="map-tile">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.3205714993865!2d85.89621721498168!3d26.153687283460464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39edb83738f6497b%3A0x9f85ef6bd0da571e!2sLevel%20T%20The%20Roof%20Top%20Lounge!5e0!3m2!1sen!2sin!4v1620477719188!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						<span>Map</span>
+					</div>
+				</a>
+			</div>
+		</div><!--home tiles end-->
+	</div><!--main content ends-->
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="hours" class="col-sm-4">
+					<span>Hours:</span><br>
+					Sun-Thurs: 11:00am - 10:00pm<br>
+					Fri: 11:00am - 11:00pm<br>
+					Saturday Closed
+					<hr class="visible-xs">
+				</section>
+				<section id="address" class="col-sm-4">
+					<span>Address:</span><br>
+					4th Floor, Rajasthan's Radhe Radhe, Mirzapur Road<br>
+					 Darbhanga, Bihar 846004
+					 <p>*Delivery area between 3-4 km for free of cost only with a minimum order of Rs.1000.Plus Rs 1crore per extra km</p>
+					 <hr class="visible-xs">
+				</section>
+				<section id="testimonials" class="col-sm-4">
+					<p>"This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again."</p>
+					<p>"It’s a great experience. The ambiance is very welcoming and charming. Amazing wines, food and service. Staff are extremely knowledgeable and make great recommendations."</p>
+				</section>
+			</div>
+			<div class="text-center">&copy; Copyright Radhe Radhe 2021</div>
+		</div>
+	</footer>
+
+	<!--jquery comes first as js plugin depends on it-->
+	<script src="//code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
